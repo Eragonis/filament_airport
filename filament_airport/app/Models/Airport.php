@@ -9,4 +9,5 @@ class Airport extends Model
 {
     /** @use HasFactory<\Database\Factories\AirportFactory> */
     use HasFactory;
+    protected $fillable = ["title"];
 }
