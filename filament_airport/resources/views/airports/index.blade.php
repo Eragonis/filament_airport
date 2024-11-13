@@ -3,7 +3,7 @@
 
 @foreach ($airports as $airport)
     <a href="{{route('airports.show',['airport'=>$airport->id])}}">{{$airport->title}}</a>
-    <a href="{{route('airports.edit',['airport'=>$airport->id])}}">e</a>
+    <a href="{{route('airports.edit',['airport'=>$airport->id])}}">edit</a>
     
     <br>
 @endforeach

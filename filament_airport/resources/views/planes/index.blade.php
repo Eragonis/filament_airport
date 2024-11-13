@@ -2,7 +2,7 @@
 
 @foreach ($planes as $plane)
     <a href="{{route('planes.show',['plane'=>$plane->id])}}">{{$plane->title}}</a>
-    <a href="{{route('planes.edit',['plane'=>$plane->id])}}">e</a>
+    <a href="{{route('planes.edit',['plane'=>$plane->id])}}">edit</a>
     
     <br>
 @endforeach
