@@ -1,5 +1,5 @@
 
-<a href="{{route('airports.create')}}">new </a>
+<a href="{{route('airports.create')}}">new </a> <br>
 
 @foreach ($airports as $airport)
     <a href="{{route('airports.show',['airport'=>$airport->id])}}">{{$airport->title}}</a>
